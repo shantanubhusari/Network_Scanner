@@ -1,0 +1,20 @@
+{
+  "result": [
+    {
+      "status": "ACTIVE", 
+      "network_namespace": "qdhcp-838a18c2-d830-451a-aa39-e13117d2a577", 
+      "fixed_ip": "192.168.1.7", 
+      "floating_ip": "10.0.2.113", 
+      "instance_name": "VM1", 
+      "network_name": "NET-1"
+    }, 
+    {
+      "status": "ACTIVE", 
+      "network_namespace": "qdhcp-838a18c2-d830-451a-aa39-e13117d2a577", 
+      "fixed_ip": "192.168.2.10", 
+      "floating_ip": "10.0.2.110", 
+      "instance_name": "VM2", 
+      "network_name": "NET-2"
+    }
+  ]
+}

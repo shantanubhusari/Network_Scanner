@@ -1,0 +1,509 @@
+{
+  "network_namespace": "qdhcp-838a18c2-d830-451a-aa39-e13117d2a577", 
+  "scantime": "2018-04-02 17:32:16", 
+  "oscpes": [
+    "cpe:/h:linksys:wrv54g", 
+    "cpe:/o:linux:linux_kernel:2.4.32", 
+    "cpe:/h:linksys:rv042", 
+    "cpe:/o:linux:linux_kernel:2.4.37", 
+    "cpe:/o:linux:linux_kernel:2.4.30", 
+    "cpe:/h:trane:tracer_sc", 
+    "cpe:/o:linux:linux_kernel:2.4", 
+    "cpe:/h:comtrend:ct536", 
+    "cpe:/h:gemtek:p360", 
+    "cpe:/h:siemens:gigaset_se515dsl", 
+    "cpe:/o:linux:linux_kernel:2.4.18", 
+    "cpe:/h:toshiba:magnia_sg10"
+  ], 
+  "floating_ip": "10.0.2.113", 
+  "osname": [
+    "Linksys WRV54G WAP", 
+    "OpenWrt (Linux 2.4.32)", 
+    "Linksys RV042 router", 
+    "DD-WRT v24-sp2 (Linux 2.4.37)", 
+    "OpenWrt White Russian 0.9 (Linux 2.4.30)", 
+    "Trane Tracer SC building controller", 
+    "OpenWrt (Linux 2.4.30 - 2.4.34)", 
+    "Comtrend CT536 wireless ADSL router", 
+    "Gemtek P360 WAP or Siemens Gigaset SE515dsl wireless broadband router", 
+    "Toshiba Magnia SG10 server appliance (Linux 2.4.18)"
+  ], 
+  "mac": "FA:16:3E:B7:4B:06", 
+  "services": [
+    {
+      "state": "open", 
+      "product": "vsftpd", 
+      "version": "2.3.4", 
+      "protocol": "tcp", 
+      "name": "ftp", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": null, 
+      "port": "21", 
+      "cpe": "cpe:/a:vsftpd:vsftpd:2.3.4"
+    }, 
+    {
+      "state": "open", 
+      "product": "OpenSSH", 
+      "version": "4.7p1 Debian 8ubuntu1", 
+      "protocol": "tcp", 
+      "name": "ssh", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": "protocol 2.0", 
+      "port": "22", 
+      "cpe": [
+        "cpe:/a:openbsd:openssh:4.7p1", 
+        "cpe:/o:linux:linux_kernel"
+      ]
+    }, 
+    {
+      "state": "open", 
+      "product": "Linux telnetd", 
+      "version": "Linux", 
+      "protocol": "tcp", 
+      "name": "telnet", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": null, 
+      "port": "23", 
+      "cpe": "cpe:/o:linux:linux_kernel"
+    }, 
+    {
+      "state": "open", 
+      "product": "Postfix smtpd", 
+      "version": null, 
+      "protocol": "tcp", 
+      "name": "smtp", 
+      "vulnerability": [
+        {
+          "cvss_score": "4.3", 
+          "cve_ids": "CVE-2016-0800"
+        }, 
+        {
+          "cvss_score": "4.3", 
+          "cve_ids": "CVE-2014-3566"
+        }, 
+        {
+          "cvss_score": "4.3", 
+          "cve_ids": "CVE-2013-2566"
+        }, 
+        {
+          "cvss_score": "4.3", 
+          "cve_ids": "CVE-2015-2808"
+        }, 
+        {
+          "cvss_score": "4.3", 
+          "cve_ids": "CVE-2015-4000"
+        }
+      ], 
+      "extrainfo": null, 
+      "port": "25", 
+      "cpe": "cpe:/a:postfix:postfix"
+    }, 
+    {
+      "state": "open", 
+      "product": "ISC BIND", 
+      "version": "9.4.2", 
+      "protocol": "tcp", 
+      "name": "domain", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": null, 
+      "port": "53", 
+      "cpe": "cpe:/a:isc:bind:9.4.2"
+    }, 
+    {
+      "state": "open", 
+      "product": "Apache httpd", 
+      "version": "2.2.8", 
+      "protocol": "tcp", 
+      "name": "http", 
+      "vulnerability": [
+        {
+          "cvss_score": "7.5", 
+          "cve_ids": "CVE-2010-1135"
+        }, 
+        {
+          "cvss_score": "7.5", 
+          "cve_ids": "CVE-2010-1134"
+        }, 
+        {
+          "cvss_score": "7.5", 
+          "cve_ids": "CVE-2010-1133"
+        }, 
+        {
+          "cvss_score": "7.5", 
+          "cve_ids": "CVE-2010-1136"
+        }, 
+        {
+          "cvss_score": "7.5", 
+          "cve_ids": "CVE-2012-1823"
+        }, 
+        {
+          "cvss_score": "7.5", 
+          "cve_ids": "CVE-2012-2311"
+        }, 
+        {
+          "cvss_score": "7.5", 
+          "cve_ids": "CVE-2012-2336"
+        }, 
+        {
+          "cvss_score": "7.5", 
+          "cve_ids": "CVE-2012-2335"
+        }, 
+        {
+          "cvss_score": "5.8", 
+          "cve_ids": "CVE-2003-1567"
+        }, 
+        {
+          "cvss_score": "5.8", 
+          "cve_ids": "CVE-2004-2320"
+        }, 
+        {
+          "cvss_score": "5.8", 
+          "cve_ids": "CVE-2004-2763"
+        }, 
+        {
+          "cvss_score": "5.8", 
+          "cve_ids": "CVE-2005-3398"
+        }, 
+        {
+          "cvss_score": "5.8", 
+          "cve_ids": "CVE-2010-0386"
+        }, 
+        {
+          "cvss_score": "5.0", 
+          "cve_ids": "CVE-2016-10143"
+        }, 
+        {
+          "cvss_score": "5.0", 
+          "cve_ids": "CVE-2008-5318"
+        }, 
+        {
+          "cvss_score": "5.0", 
+          "cve_ids": "CVE-2008-5319"
+        }, 
+        {
+          "cvss_score": "4.3", 
+          "cve_ids": "CVE-2010-4480"
+        }, 
+        {
+          "cvss_score": "4.3", 
+          "cve_ids": "CVE-2012-0053"
+        }, 
+        {
+          "cvss_score": "3.5", 
+          "cve_ids": "CVE-2018-7188"
+        }
+      ], 
+      "extrainfo": "(Ubuntu) DAV/2", 
+      "port": "80", 
+      "cpe": "cpe:/a:apache:http_server:2.2.8"
+    }, 
+    {
+      "state": "open", 
+      "product": null, 
+      "version": "2", 
+      "protocol": "tcp", 
+      "name": "rpcbind", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": "RPC #100000", 
+      "port": "111", 
+      "cpe": null
+    }, 
+    {
+      "state": "open", 
+      "product": "Samba smbd", 
+      "version": "3.X", 
+      "protocol": "tcp", 
+      "name": "netbios-ssn", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": "workgroup: WORKGROUP", 
+      "port": "139", 
+      "cpe": "cpe:/a:samba:samba:3"
+    }, 
+    {
+      "state": "open", 
+      "product": "Samba smbd", 
+      "version": "3.X", 
+      "protocol": "tcp", 
+      "name": "netbios-ssn", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": "workgroup: WORKGROUP", 
+      "port": "445", 
+      "cpe": "cpe:/a:samba:samba:3"
+    }, 
+    {
+      "state": "open", 
+      "product": null, 
+      "version": null, 
+      "protocol": "tcp", 
+      "name": "exec", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": null, 
+      "port": "512", 
+      "cpe": null
+    }, 
+    {
+      "state": "open", 
+      "product": null, 
+      "version": null, 
+      "protocol": "tcp", 
+      "name": "login", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": null, 
+      "port": "513", 
+      "cpe": null
+    }, 
+    {
+      "state": "open", 
+      "product": null, 
+      "version": null, 
+      "protocol": "tcp", 
+      "name": "tcpwrapped", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": null, 
+      "port": "514", 
+      "cpe": null
+    }, 
+    {
+      "state": "open", 
+      "product": "Java RMI Registry", 
+      "version": null, 
+      "protocol": "tcp", 
+      "name": "java-rmi", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": null, 
+      "port": "1099", 
+      "cpe": null
+    }, 
+    {
+      "state": "open", 
+      "product": "Metasploitable root shell", 
+      "version": null, 
+      "protocol": "tcp", 
+      "name": "shell", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": null, 
+      "port": "1524", 
+      "cpe": null
+    }, 
+    {
+      "state": "open", 
+      "product": null, 
+      "version": "2-4", 
+      "protocol": "tcp", 
+      "name": "nfs", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": "RPC #100003", 
+      "port": "2049", 
+      "cpe": null
+    }, 
+    {
+      "state": "open", 
+      "product": "ProFTPD", 
+      "version": "1.3.1", 
+      "protocol": "tcp", 
+      "name": "ftp", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": null, 
+      "port": "2121", 
+      "cpe": "cpe:/a:proftpd:proftpd:1.3.1"
+    }, 
+    {
+      "state": "open", 
+      "product": "MySQL", 
+      "version": "5.0.51a-3ubuntu5", 
+      "protocol": "tcp", 
+      "name": "mysql", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": null, 
+      "port": "3306", 
+      "cpe": "cpe:/a:mysql:mysql:5.0.51a-3ubuntu5"
+    }, 
+    {
+      "state": "open", 
+      "product": "PostgreSQL DB", 
+      "version": "8.3.0 - 8.3.7", 
+      "protocol": "tcp", 
+      "name": "postgresql", 
+      "vulnerability": [
+        {
+          "cvss_score": "6.8", 
+          "cve_ids": "CVE-2014-0224"
+        }, 
+        {
+          "cvss_score": "4.3", 
+          "cve_ids": "CVE-2016-0800"
+        }, 
+        {
+          "cvss_score": "4.3", 
+          "cve_ids": "CVE-2014-3566"
+        }
+      ], 
+      "extrainfo": null, 
+      "port": "5432", 
+      "cpe": "cpe:/a:postgresql:postgresql:8.3"
+    }, 
+    {
+      "state": "open", 
+      "product": "VNC", 
+      "version": null, 
+      "protocol": "tcp", 
+      "name": "vnc", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": "protocol 3.3", 
+      "port": "5900", 
+      "cpe": null
+    }, 
+    {
+      "state": "open", 
+      "product": null, 
+      "version": null, 
+      "protocol": "tcp", 
+      "name": "X11", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": "access denied", 
+      "port": "6000", 
+      "cpe": null
+    }, 
+    {
+      "state": "open", 
+      "product": "Unreal ircd", 
+      "version": null, 
+      "protocol": "tcp", 
+      "name": "irc", 
+      "vulnerability": [
+        {
+          "cvss_score": "7.5", 
+          "cve_ids": "CVE-2010-2075"
+        }, 
+        {
+          "cvss_score": "6.8", 
+          "cve_ids": "CVE-2016-7144"
+        }
+      ], 
+      "extrainfo": null, 
+      "port": "6667", 
+      "cpe": "cpe:/a:unrealircd:unrealircd"
+    }, 
+    {
+      "state": "open", 
+      "product": "Apache Jserv", 
+      "version": null, 
+      "protocol": "tcp", 
+      "name": "ajp13", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": "Protocol v1.3", 
+      "port": "8009", 
+      "cpe": null
+    }, 
+    {
+      "state": "open", 
+      "product": "Apache Tomcat/Coyote JSP engine", 
+      "version": "1.1", 
+      "protocol": "tcp", 
+      "name": "http", 
+      "vulnerability": [
+        {
+          "cvss_score": "0.0", 
+          "cve_ids": "NOCVE"
+        }
+      ], 
+      "extrainfo": null, 
+      "port": "8180", 
+      "cpe": "cpe:/a:apache:coyote_http_connector:1.1"
+    }
+  ], 
+  "network_name": "NET-1", 
+  "scantype": "Service and Vulnerability Scan", 
+  "fixed_ip": "192.168.1.7", 
+  "instance_name": "VM1"
+}
